@@ -1,0 +1,47 @@
+FORMULÁRIOS E INPUTS DE DADOS
+
+HTML possibilita a criação de formulários online utilizando tags
+A tag usada para formulários é <form>
+
+    exemplo:
+    <form action="pagina.php" method="post">
+        <input type="text" name="nome">
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar"> 
+    </form>
+
+    - action: URL para onde os dados do formulário serão enviados
+    - method: método de envio dos dados (post ou get)
+
+Input: obter dados de entrada
+Button: Cria um botão cliclável para controlar outros elementos ou executar algo da pagina
+Select: Para criação de lista suspensa
+Label: Utilizado como um Rótulo para o campo
+
+    exemplo:
+    <form action="pagina.php" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome">
+        <input type="submit" value="Enviar">
+    </form>
+
+    - for: associa o label ao input
+    - id: identificador do input
+
+Dentro da tag <input>, inserimos o tipo atráves do atributo type
+    - text: campo de texto
+    - password: campo de senha
+    - radio: botão de seleção única
+    - checkbox: botão de seleção múltipla
+    - submit: botão de envio
+    - reset: botão de limpar
+    - button: botão clicável
+    - file: campo para envio de arquivos
+    - hidden: campo oculto
+    - image: botão de imagem
+    - date: campo de data
+    - email: campo de email
+    - number: campo de número
+    - tel: campo de telefone
+    - url: campo de URL
+    - color: campo de cor
